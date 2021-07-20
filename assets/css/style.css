@@ -32,6 +32,8 @@ h1 {
 
 }
 
+/* SideBar  */
+
 .sidebar {
     position: fixed;
     top: 0;
@@ -132,6 +134,7 @@ h1 {
 }
 
 .social__icon:hover {
+    cursor: pointer;
     opacity: 0.6;
 }
 
@@ -177,6 +180,8 @@ h1 {
         display: block;
     }
 }
+
+/* Main Site  */
 
 .header-site__bar {
     padding: 10px 15px;
@@ -230,6 +235,11 @@ h1 {
 .place__category.active {
     color: #fff;
     background-color: #000;
+}
+
+.place__item-img:hover {
+
+    opacity: 0.6;
 }
 
 .place__icon {
@@ -387,8 +397,8 @@ h1 {
     margin-bottom: 15px;
 }
 
-.footer-site__blog {
-
+.footer-site__blog:hover {
+    text-decoration: none;
 }
 
 .footer-site__blog ~ .footer-site__blog {
