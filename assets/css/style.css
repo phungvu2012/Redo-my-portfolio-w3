@@ -122,19 +122,22 @@ h1 {
     right: 16px;
     
     display: flex;
-    
+}
+
+.social__item {
+    flex: 1;
+    text-align: center;
 }
 
 .social__icon {
-    flex: 1;
     padding: 0 4px;
     
     color: #bbb;
     font-size: 3rem;
 }
 
-.social__icon:hover {
-    cursor: pointer;
+.social__item:hover {
+    /* cursor: pointer; */
     opacity: 0.6;
 }
 
@@ -149,6 +152,23 @@ h1 {
 }
 
 @media (max-width: 62em) {
+
+    .social {
+        position: static;
+        flex-direction: column;
+    }
+
+    .social__item {
+        flex: 1;
+        padding: 8px 5px;
+        margin-bottom: 8px;
+        background-color: #ccc;
+    }
+    
+    .social__icon {
+        color: #fff;
+    }
+
 
     .hide-sidebar {
         opacity: 0;
