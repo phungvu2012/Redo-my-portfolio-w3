@@ -169,6 +169,7 @@ h1 {
         color: #fff;
     }
 
+
     .hide-sidebar {
         opacity: 0;
         transform: translateX(-100%);
